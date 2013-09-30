@@ -1,0 +1,32 @@
+body {
+	font-family: "Arial" sans-serif;
+	background: ##424242;
+}
+
+h1, h2, h3, h4 {
+	margin: 0;
+}
+
+h1 {
+	background: #aaa;
+	padding: 20px 15px;
+	font-size: 24pt;
+	color: #fff;
+	text-shadow: 1px 1px 2px #424242;
+	text-align: center;
+}
+
+.content {
+	margin: 15px;
+	background: #aaa;
+}
+
+img {
+	border: 2px solid #000;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+
+#center_img {
+	text-align: center;
+}
