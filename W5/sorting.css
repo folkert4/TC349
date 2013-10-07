@@ -16,7 +16,7 @@ h1 {
 
 .content {
 	background: #fff;
-	width: 600px;
+	width: 800px;
 	margin: 0 auto;
 }
 
@@ -33,10 +33,16 @@ h3 {
 }
 
 table {
+	width: 600px;
 	border: 1px solid #ccc;
 	border-collapse: : collapse;
+	margin: 5px auto;
 }
 
 table td {
+	padding: 5px;
+}
+
+p {
 	padding: 5px;
 }
