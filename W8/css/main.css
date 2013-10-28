@@ -97,8 +97,43 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body {
+    border-top:  10px solid #424242;
+}
 
+header {
+    background: url(../img/grafitti_gradient.jpg);
+    height: 470px;
+    padding: 40px;
+}
 
+h1, h2, p {
+    margin: 0;
+}
+
+h1 {
+    padding-top: 420px;
+    color: #FFF;
+}
+
+h2 {
+    font-weight: normal;
+    color: #FFF;
+}
+
+#map_location {
+    background: #e3e3e3;
+    padding: 40px;
+}
+
+nav {
+    float: left;
+    width: 250px;
+}
+
+article {
+    margin-left: 300px;
+}
 
 
 
