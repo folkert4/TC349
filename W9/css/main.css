@@ -108,8 +108,25 @@ header {
     padding: 40px;
 }
 
-h1, h2, p {
+h1, h2, p, ul{
     margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.gallery li {
+    display: inline-block;
+    margin: 0 2% 2% 0;
+    border: 5px solid #fff;
+    box-shadow: 0 0 10px #ccc;
+    transition: border-color .5s;
+}
+
+.gallery li:hover {
+    border-color: #aeccf9;
 }
 
 h1 {
@@ -127,6 +144,7 @@ h2 {
     background-position: center;
     height: 250px;
     width: 1600px;
+    transition : background-image 1s;
 }
 
 nav {
