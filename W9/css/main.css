@@ -122,7 +122,7 @@ ul {
     margin: 0 2% 2% 0;
     border: 5px solid #fff;
     box-shadow: 0 0 10px #ccc;
-    transition: border-color .5s;
+    transition: border-color .25s;
 }
 
 .gallery li:hover {
