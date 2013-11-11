@@ -156,18 +156,21 @@ article {
     margin-left: 300px;
 }
 
+nav ul {
+    margin: 30px 0 0 40px;
+}
 
+nav a {
+    color: #424242;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    border-top: 1px solid #e3e3e3;
+}
 
-
-
-
-
-
-
-
-
-
-
+nav a:hover {
+    background: #f3f3f3;
+}
 
 /* ==========================================================================
    Helper classes
@@ -276,8 +279,14 @@ article {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
+@media (max-width: 600px) {
+    nav {
+        float: none;
+        width: auto;
+    }
+    article {
+    margin: 20px;
+    }
 }
 
 @media print,
