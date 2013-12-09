@@ -30,7 +30,7 @@ html {
  */
 
 ::-moz-selection {
-    background: #b3d4fc;
+    background: #b2b2b2;
     text-shadow: none;
 }
 
@@ -97,9 +97,18 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body {
+    background: #E6E6E6 url('../img/natural_paper.png') repeat;
+}
 
-
-
+#copyright {
+    display: inline-block;
+    float: right;
+    font-size: 13px;
+    color: #808080;
+    margin-right: 5px;
+    margin-top: 5px;
+}
 
 
 
