@@ -31,14 +31,6 @@ function pass_index() {
 	window.location.replace('pitch.html');
 }
 
-function submit_draft() {
-	window.location.assign('draft2.html')
-}
-
-function submit_draft2() {
-	window.location.assign('draft3.html')
-}
-
-function submit_draft3() {
-	window.location.assign('draft.html')
-}
+//$(".fade_in").each(function(i) {
+//  $(this).delay(i * 400).fadeIn();
+//});

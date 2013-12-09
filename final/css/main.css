@@ -122,6 +122,16 @@ html {
     margin-left: -200px;
 }
 
+#centered_page {
+    width: 400px;
+    height: 200px;
+    position: fixed;
+    top: 20%;
+    margin-top: -150px;
+    left: 20%;
+    margin-left: -200px;
+}
+
 .title {
     font-family: 'Carrois Gothic SC', sans-serif;
     color: #1a1a1a;
@@ -180,11 +190,19 @@ a.sublink:active {
     -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.8);
     box-shadow: 0 0 5px rgba(0,0,0,0.8);
 }
+
 #nav_div {
     height: 101px;
     position: fixed;
     top: 75%;
 }
+#content_div {
+    position: fixed;
+    top: 35%;
+    width: 800px;
+    margin-left: 10px;
+}
+
 #left_left {
     width: 100px;
     height: 50px;
@@ -218,6 +236,30 @@ a.sublink:active {
     margin-left: -50px;
 }
 
+.fade_in {
+    display: none;
+}
+.gallery {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 20px;
+}
+.gallery li {
+    display: inline-block;
+    margin: 0 2% 2% 0;
+    border: 1px solid #4c4c4c;
+    box-shadow: 0 0 10px #ccc;
+    transition: border-color .25s;
+}
+
+.gallery li:hover {
+    border-color: #999999;
+}
+p {
+    font-family: 'Carrois Gothic SC', sans-serif;
+    color: #1a1a1a;
+    text-align: center;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -336,6 +378,10 @@ a.sublink:active {
     #nav_div {
         position: static;
     }
+    #content_div {
+        position: static;
+        width: auto;
+    }
     #left_left {
         width: 250px;
         height: 50px;
@@ -375,6 +421,17 @@ a.sublink:active {
         margin-top: 25px;
         margin-left: auto;
         margin-right: auto;
+    }
+    #centered_page {
+        width: 400px;
+        height: 200px;
+        position: static;
+        margin-top: 25px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .fade_in {
+        display: inline;
     }
 }
 
