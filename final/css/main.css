@@ -97,6 +97,8 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/*font-family: 'Carrois Gothic SC', sans-serif;*/
+
 body {
     background: #E6E6E6 url('../img/natural_paper.png') repeat;
 }
@@ -110,16 +112,43 @@ body {
     margin-top: 5px;
 }
 
+#centered {
+    width: 400px;
+    height: 200px;
+    position: fixed;
+    top: 50%;
+    margin-top: -150px;
+    left: 50%;
+    margin-left: -200px;
+}
 
+.title {
+    font-family: 'Carrois Gothic SC', sans-serif;
+    color: #1a1a1a;
+    text-align: center;
+}
 
+.subtitle {
+    font-family: 'Carrois Gothic SC', sans-serif;
+    color: #4c4c4c;
+    text-align: center;
+    font-weight: 200;
+    font-size: 16pt;
+    margin-top: 0px;
+}
 
+#left_left {
 
-
-
-
-
-
-
+}
+#left_right {
+    
+}
+#right_left {
+    
+}
+#right_right {
+    
+}
 
 
 /* ==========================================================================
