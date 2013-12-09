@@ -180,12 +180,15 @@ a.sublink:active {
     -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.8);
     box-shadow: 0 0 5px rgba(0,0,0,0.8);
 }
-
+#nav_div {
+    height: 101px;
+    position: fixed;
+    top: 75%;
+}
 #left_left {
     width: 100px;
     height: 50px;
     position: fixed;
-    top: 75%;
     margin-top: -50px;
     left: 10%;
     margin-left: -50px;
@@ -194,7 +197,6 @@ a.sublink:active {
     width: 175px;
     height: 50px;
     position: fixed;
-    top: 75%;
     margin-top: -50px;
     left: 34%;
     margin-left: -50px;
@@ -203,7 +205,6 @@ a.sublink:active {
     width: 250px;
     height: 50px;
     position: fixed;
-    top: 75%;
     margin-top: -50px;
     left: 57%;
     margin-left: -50px;
@@ -212,12 +213,10 @@ a.sublink:active {
     width: 100px;
     height: 50px;
     position: fixed;
-    top: 75%;
     margin-top: -50px;
     left: 85%;
     margin-left: -50px;
 }
-
 
 /* ==========================================================================
    Helper classes
@@ -326,8 +325,57 @@ a.sublink:active {
    Modify as content requires.
    ========================================================================== */
 
-   @media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
+   @media only screen and (max-width: 600px) {
+    body {
+        background: #E6E6E6;
+    }
+    #copyright{
+        float: none;
+        margin-left: 10px;
+    }
+    #nav_div {
+        position: static;
+    }
+    #left_left {
+        width: 250px;
+        height: 50px;
+        position: static;
+        margin-top: 25px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #left_right {
+        width: 250px;
+        height: 50px;
+        position: static;
+        margin-top: 25px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #right_left {
+        width: 250px;
+        height: 50px;
+        position: static;
+        margin-top: 25px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #right_right {
+        width: 250px;
+        height: 50px;
+        position: static;
+        margin-top: 25px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #centered {
+        width: 400px;
+        height: 200px;
+        position: static;
+        margin-top: 25px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 @media print,
