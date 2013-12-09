@@ -1,1 +1,6 @@
 https://www.msu.edu/~folkert4/TC349/
+
+
+NOTE!!!!!!!!! 
+
+The only validation errors were caused by values from the meta tag, this was added by the boilerplate, I believe it is for IE compatability, so i did not change the values
