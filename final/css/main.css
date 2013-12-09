@@ -10,11 +10,11 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
-html,
-button,
-input,
-select,
-textarea {
+   html,
+   button,
+   input,
+   select,
+   textarea {
     color: #222;
 }
 
@@ -29,7 +29,7 @@ html {
  * Customize the background color to match your design.
  */
 
-::-moz-selection {
+ ::-moz-selection {
     background: #b2b2b2;
     text-shadow: none;
 }
@@ -43,7 +43,7 @@ html {
  * A better looking default horizontal rule
  */
 
-hr {
+ hr {
     display: block;
     height: 1px;
     border: 0;
@@ -57,10 +57,10 @@ hr {
  * their containers: h5bp.com/i/440
  */
 
-audio,
-canvas,
-img,
-video {
+ audio,
+ canvas,
+ img,
+ video {
     vertical-align: middle;
 }
 
@@ -68,7 +68,7 @@ video {
  * Remove default fieldset styles.
  */
 
-fieldset {
+ fieldset {
     border: 0;
     margin: 0;
     padding: 0;
@@ -78,7 +78,7 @@ fieldset {
  * Allow only vertical resizing of textareas.
  */
 
-textarea {
+ textarea {
     resize: vertical;
 }
 
@@ -86,7 +86,7 @@ textarea {
    Browse Happy prompt
    ========================================================================== */
 
-.browsehappy {
+   .browsehappy {
     margin: 0.2em 0;
     background: #ccc;
     color: #000;
@@ -97,9 +97,9 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-/*font-family: 'Carrois Gothic SC', sans-serif;*/
+   /*font-family: 'Carrois Gothic SC', sans-serif;*/
 
-body {
+   body {
     background: #E6E6E6 url('../img/natural_paper.png') repeat;
 }
 
@@ -137,17 +137,85 @@ body {
     margin-top: 0px;
 }
 
-#left_left {
+a.sublink:link {
+    font-family: 'Carrois Gothic SC', sans-serif;
+    color: #666666;
+    text-align: center;
+    font-weight: 200;
+    font-size: 14pt;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-decoration: none;
+}
 
+a.sublink:visited {
+    font-family: 'Carrois Gothic SC', sans-serif;
+    color: #666666;
+    text-align: center;
+    font-weight: 200;
+    font-size: 14pt;
+    text-decoration: none;
+}
+a.sublink:hover {
+    font-family: 'Carrois Gothic SC', sans-serif;
+    color: #666666;
+    text-align: center;
+    font-weight: 200;
+    font-size: 14pt;
+    text-decoration: none;
+    -moz-box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+a.sublink:active {
+    font-family: 'Carrois Gothic SC', sans-serif;
+    color: #666666;
+    text-align: center;
+    font-weight: 200;
+    font-size: 14pt;
+    text-decoration: none;
+    -moz-box-shadow: 0 0 5px rgba(0,0,0,0.8);
+    -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.8);
+    box-shadow: 0 0 5px rgba(0,0,0,0.8);
+}
+
+#left_left {
+    width: 100px;
+    height: 50px;
+    position: fixed;
+    top: 75%;
+    margin-top: -50px;
+    left: 10%;
+    margin-left: -50px;
 }
 #left_right {
-    
+    width: 175px;
+    height: 50px;
+    position: fixed;
+    top: 75%;
+    margin-top: -50px;
+    left: 34%;
+    margin-left: -50px;
 }
 #right_left {
-    
+    width: 250px;
+    height: 50px;
+    position: fixed;
+    top: 75%;
+    margin-top: -50px;
+    left: 57%;
+    margin-left: -50px;
 }
 #right_right {
-    
+    width: 100px;
+    height: 50px;
+    position: fixed;
+    top: 75%;
+    margin-top: -50px;
+    left: 85%;
+    margin-left: -50px;
 }
 
 
@@ -159,7 +227,7 @@ body {
  * Image replacement
  */
 
-.ir {
+ .ir {
     background-color: transparent;
     border: 0;
     overflow: hidden;
@@ -178,7 +246,7 @@ body {
  * Hide from both screenreaders and browsers: h5bp.com/u
  */
 
-.hidden {
+ .hidden {
     display: none !important;
     visibility: hidden;
 }
@@ -187,7 +255,7 @@ body {
  * Hide only visually, but have it available for screenreaders: h5bp.com/v
  */
 
-.visuallyhidden {
+ .visuallyhidden {
     border: 0;
     clip: rect(0 0 0 0);
     height: 1px;
@@ -203,8 +271,8 @@ body {
  * when navigated to via the keyboard: h5bp.com/p
  */
 
-.visuallyhidden.focusable:active,
-.visuallyhidden.focusable:focus {
+ .visuallyhidden.focusable:active,
+ .visuallyhidden.focusable:focus {
     clip: auto;
     height: auto;
     margin: 0;
@@ -217,7 +285,7 @@ body {
  * Hide visually and from screenreaders, but maintain layout
  */
 
-.invisible {
+ .invisible {
     visibility: hidden;
 }
 
@@ -233,8 +301,8 @@ body {
  *    `:before` to contain the top-margins of child elements.
  */
 
-.clearfix:before,
-.clearfix:after {
+ .clearfix:before,
+ .clearfix:after {
     content: " "; /* 1 */
     display: table; /* 2 */
 }
@@ -248,7 +316,7 @@ body {
  * Include this rule to trigger hasLayout and contain floats.
  */
 
-.clearfix {
+ .clearfix {
     *zoom: 1;
 }
 
@@ -258,14 +326,14 @@ body {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
+   @media only screen and (min-width: 35em) {
     /* Style adjustments for viewports that meet the condition */
 }
 
 @media print,
-       (-o-min-device-pixel-ratio: 5/4),
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 120dpi) {
+(-o-min-device-pixel-ratio: 5/4),
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 120dpi) {
     /* Style adjustments for high resolution devices */
 }
 
@@ -274,7 +342,7 @@ body {
    Inlined to avoid required HTTP connection: h5bp.com/r
    ========================================================================== */
 
-@media print {
+   @media print {
     * {
         background: transparent !important;
         color: #000 !important; /* Black prints faster: h5bp.com/s */
@@ -299,9 +367,9 @@ body {
      * Don't show links for images, or javascript/internal links
      */
 
-    .ir a:after,
-    a[href^="javascript:"]:after,
-    a[href^="#"]:after {
+     .ir a:after,
+     a[href^="javascript:"]:after,
+     a[href^="#"]:after {
         content: "";
     }
 
